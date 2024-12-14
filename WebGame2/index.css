@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1c1c1c;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0a0a0a;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #005b2c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chest-item {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.chest-image img {
+  width: 200px; /* Keep the original size */
+  height: 200px;
+  object-fit: cover;
+}
+
+.chest-details {
+  text-align: center;
+  margin-left: 20px;
+}
+
+#roll-button {
+  display: block;
+  margin: 40px auto;
+  background-color: #2a8af7;
+}
+
+#prompt-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#inventory-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.inventory-item {
+  width: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inventory-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.inventory-item span {
+  font-size: 12px;
+}
